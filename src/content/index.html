@@ -1,40 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Site title</title>
-    <meta name="description" content="Description" />
 
-    <!-- Title -->
-    <meta property="og:title" content="" />
-    <!-- OPTIONAL description. 2-4 sentences. -->
-    <meta property="og:description" content="" />
-    <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
-    <meta property="og:url" content="" />
-    <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
-    <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Site title</title>
+  <meta name="description" content="Description" />
 
-    <link rel="manifest" href="manifest.json" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link
-      rel="apple-touch-icon"
-      sizes="192x192"
-      href="assets/pwa/icons/icon-192x192.png"
-    />
+  <!-- Title -->
+  <meta property="og:title" content="" />
+  <!-- OPTIONAL description. 2-4 sentences. -->
+  <meta property="og:description" content="" />
+  <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
+  <meta property="og:url" content="" />
+  <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
+  <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
 
-    <link
-      rel="icon"
-      type="image/png"
-      href="assets/pwa/icons/icon-192x192.png"
-    />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="apple-touch-icon" sizes="192x192" href="assets/pwa/icons/icon-192x192.png" />
 
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <h1>Hello world - with simple PWA support!</h1>
+  <link rel="icon" type="image/png" href="assets/pwa/icons/icon-192x192.png" />
 
-    <script src="js/main.js"></script>
-  </body>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body class="page">
+  <header class="site__header">
+    <nav class="navigation">
+      <ul class="navigation__list navigation__list--js">
+        <li class="navigation__item">
+          <a class="navigation__link" href="days\day1.html">Dzień 1</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="days\day2.html">Dzień 2</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="days\day2.html">Dzień 2</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="days\day2.html">Dzień 2</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="navigation__sitcher navigation__sitcher--js" aira-label="Open the menu">&#9776;</button>
+  </header>
+  <main id="top" class="diary">
+
+    <header class="diary__mainheader">
+      <h1>Pawel Dabala - Strona Domowa</h1>
+    </header>
+    <div class="diary__content">
+      <section>
+        <h2 class="diary__midleheader">Kim Jestem</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis nemo at autem officiis iste
+          voluptates
+          suscipit illo, magni quas, laboriosam sed veritatis itaque ut voluptas culpa dolore vel maxime.
+          Repellendus?</p>
+      </section>
+      <section>
+        <h2 class="diary__midleheader">Pamietniczek</h2>
+        <section>
+          <h3 class="diary__dayheader">12-09-2019</h3>
+          <p>
+            Olka odebrała Maćka z przedszkola. Byłem na zepraniu w przedszkolu, nie podoba mi się
+            nauczycielka a
+            już najbardziej przewodnicząca (walnięta laska przeciw cukrom). Maćka odebrałem od Olki bawił
+            się
+            bardzo dobrze. Poszliśmy na basen, potrafi swobodnie nurkować na duże głebokości i dlugo
+            wstrzymać
+            oddech. Powieśliśmy worek do huśtania w pokoju Maćka.
+          </p>
+        </section>
+        <section>
+          <h3 class=diary__dayheader>11-09-2019</h3>
+          <p>
+            Byliśmy w kinie na filme Dora, całkiem fajny nawet mi się podobał. W pojemniku z plakatami
+            znalźliśmy plakat Dory, kótry powieśliśmy u Maćka w pokoju. Wieczorem poszliśmy się przejść z
+            Fibą
+            po lesie.
+          </p>
+        </section>
+        <section>
+          <h3 class=diary__dayheader>10-09-2019</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis vitae, quas quos magnam, quidem
+            molestiae hic quasi nisi tenetur quia accusamus veritatis iusto suscipit ipsam veniam, nihil nobis! Tenetur,
+            laudantium.
+          </p>
+        </section>
+        <section>
+          <h3 class="diary__dayheader">09-09-2019</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quaerat corrupti, consectetur ducimus
+            doloribus explicabo architecto cupiditate voluptates modi, nesciunt reprehenderit sapiente? Dolore atque
+            deleniti tenetur a pariatur ea consectetur?
+          </p>
+        </section>
+        <section>
+          <h3 class="diary__dayheader">08-09-2019</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis officia aliquam obcaecati dolor facere
+            commodi, tempore illum expedita dolores qui, nostrum quos et ducimus in soluta? Fuga omnis iure neque?
+          </p>
+        </section>
+        <section>
+          <h3 class="diary__dayheader">07-09-2019</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis perspiciatis deserunt harum minus
+            necessitatibus eum ullam! Aliquam natus fuga, sint pariatur qui odio nihil possimus corporis earum, ratione
+            reiciendis odit..</p>
+        </section>
+        <section>
+          <h3 class="diary__dayheader">06-09-2019</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam ex sed esse possimus optio provident odit
+            vero deleniti aut consequuntur nam blanditiis reprehenderit temporibus ipsa, officia error repellendus eaque
+            quis!
+          </p>
+        </section>
+        <section>
+          <h3 class="diary__dayheader">03-09-2019</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem soluta assumenda molestias maiores nobis
+            reiciendis minima exercitationem fugiat consectetur corrupti in dolorum, sunt provident laborum odio quidem,
+            suscipit corporis! Repellat.
+          </p>
+        </section>
+        <section>
+          <h3 class="diary__dayheader">02-09-2019</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat harum eaque quam ipsum similique aperiam
+            numquam provident fugit ex animi consequuntur velit incidunt sequi esse laboriosam soluta veniam, reiciendis
+            voluptatem.</p>
+        </section>
+        <section>
+          <h3 class="diary__dayheader">01-09-2019</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime iste excepturi soluta labore, dolores ex.
+            Quo velit, similique, mollitia labore quasi, ullam alias autem excepturi sunt a fugiat quisquam aut.</p>
+        </section>
+        <section>
+          <h3 class="diary__dayheader">31-08-2019</h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui porro hic labore nemo, pariatur animi
+            obcaecati aspernatur exercitationem voluptate blanditiis nobis, voluptatibus ad vitae eum eos enim sed.
+            Iusto, sequi!</p>
+        </section>
+        <section>
+          <h3 class="diary__dayheader">30-08-2019</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic maxime ea voluptas perspiciatis illo. Enim
+            officia hic velit laboriosam. Iusto aspernatur, qui perferendis optio laudantium officia. Veritatis aliquam
+            accusamus sit!</p>
+
+        </section>
+        <section>
+          <h3 class="diary__dayheader">29-08-2019</h3>
+          <p>Maćka odebrałem zaraz po przedszkolu i pojechaliśmy do Olki. Maciek zasnoł w samochodzie. Kiedy
+            się
+            obudził poszliśmy na plac zabaw z Marcelem. Od Olki dostał SuperZinks kótrego zgóbłi w
+            piaskownicy.
+            Próbowaliśmy kupić nowego ale wszystkie sklepy były już zamknięte.</p>
+        </section>
+        <section>
+          <h3 class="diary__dayheader">28-08-2019</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vel et aperiam reiciendis iusto
+            molestiae error, adipisci, inventore laborum ipsa commodi dolorem quos repudiandae ex vitae corrupti
+            similique reprehenderit totam.</p>
+        </section>
+        <section>
+          <h3 class="diary__dayheader">27-08-2019</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quaerat odit nam deleniti pariatur,
+            perspiciatis mollitia consequuntur doloribus, veniam beatae repellendus blanditiis. Adipisci architecto
+            atque dignissimos voluptatem, eum assumenda suscipit.</p>
+        </section>
+        <section>
+          <h3 class="diary__dayheader">Jak zanurkować</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis porro voluptate culpa
+            necessitatibus,
+            perspiciatis provident tempora corporis quibusdam ex minima explicabo similique quam nemo odit
+            nisi
+            error possimus rem recusandae.</p>
+        </section>
+        <section>
+          <h3 class="diary__dayheader">Jak strzelac z luku</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, alias neque! Quisquam
+            odio
+            adipisci necessitatibus dolore, excepturi delectus laudantium alias! Nam voluptate doloribus
+            quam
+            molestias doloremque repellendus quae ad iusto?</p>
+        </section>
+        <section>
+          <h3 class="diary__dayheader">Jak strzelac z luku</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, alias neque! Quisquam
+            odio
+            adipisci necessitatibus dolore, excepturi delectus laudantium alias! Nam voluptate doloribus
+            quam
+            molestias doloremque repellendus quae ad iusto?</p>
+        </section>
+        <section>
+          <h3 class="diary__dayheader">Jak strzelac z luku</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, alias neque! Quisquam
+            odio
+            adipisci necessitatibus dolore, excepturi delectus laudantium alias! Nam voluptate doloribus
+            quam
+            molestias doloremque repellendus quae ad iusto?</p>
+        </section>
+        <section>
+          <h3 class="diary__dayheader">To wypełnił JS</h3>
+          <p class="diary__daytext--js"></p>
+        </section>
+
+      </section>
+    </div>
+    <footer class="page__footer">
+      <a href="#top" class="navigation__top">Go up!</a>
+      Strona domowa Pawel Dabala.
+    </footer>
+    <script src="js\main.js"></script>
+
+  </main>
+</body>
+
 </html>
